@@ -1,0 +1,266 @@
+<!--684.834 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://use.fontawesome.com/0ae29c1e19.js"></script>
+  <style>
+    .head-site{
+      background-image: linear-gradient(#ffafbd , #ffc3a0);
+      height: 150px;
+      border-radius: 10px;
+
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 85px 85px 120px 120px 120px;
+      margin-left: 200px;
+      padding: 7px;
+      
+    }
+
+    .item-sign{
+      text-align: center;
+    }
+    .item-sign a{
+      text-decoration: none;
+      color: white;
+    }
+    .container2{
+      margin-left:200px;
+      display: grid;
+      grid-template-columns: 450px 100px 100px 300px;
+      margin-top: 20px;
+      background-color: whitesmoke;
+      height: 50px;
+      width: 630px;
+      border-radius: 10px;
+    }
+    #input{
+      border: none;
+      width: 450px;
+      height: 35px;
+      margin-top: 7px;
+      border-radius: 10px;
+    }
+    .item2{
+      margin-top: 1px;
+      margin-left: 20px;
+      background-color: #ee9ca7  ;
+      height: 48px;
+      width: 70px;
+      border-radius: 8px;
+      color:white;
+      font-size: 250%;
+      text-align: center;
+    }
+    .item2:hover{
+      background:white;
+      color: pink;
+    }
+    .item3{
+      margin-top: 1px;
+      margin-left: 5px;
+      background-color: #ee9ca7 ;
+      height: 48px;
+      width: 70px;
+      border-radius: 10px;
+      color:white;
+      font-size: 250%;
+      text-align: center;
+    }
+    .item3:hover{
+      background:white;
+      color: pink;
+    }
+    .logo{
+      font-size: 3em;
+      font-style: italic;
+      color: white;
+      text-shadow: whitesmoke 1px 0 10px;;
+    }
+    .danhmucsanpham{
+      display: grid;
+      grid-template-columns: 120px 120px 120px 120px 120px ;
+      margin-left: 400px;
+      margin-top: 10px;
+    }
+
+    .dmsp1{
+      text-align: center;
+      padding: 10px;
+    }
+    .dmsp1 a{
+      text-decoration: none;
+      color: black;
+      font-size: 150%;
+    }
+    .dmsp1:hover{border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp {
+      margin-left: 400px;
+      display: grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 400px 400px 400px;
+      grid-column-gap: 15px;
+      grid-row-gap: 20px;
+    }
+    .list-sp1{ background: pink;}
+    .list-sp2{ background: pink;}
+    .list-sp3{ background: pink;}
+    .list-sp4{ background: pink;}
+    .list-sp5{ background: pink;}
+    .list-sp6{ background: pink;}
+    .list-sp7{ background: pink;}
+    .list-sp8{ background: pink;}
+    .list-sp9{ background: pink;}
+    .list-sp1:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp2:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp3:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp4:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp5:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp6:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp7:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp8:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .list-sp9:hover{ background: pink;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .foot-site{
+      display: grid;
+      grid-template-columns: 250px 250px 270px;
+      height: 300px;
+      background-color: whitesmoke;
+      border-top: 1px solid gray;
+    }
+    .foot-site1 ul li {
+      list-style: none;
+    }
+    .foot-site1 ul li a{
+      text-decoration: none;
+      color: gray;
+    }
+    .foot-site1 ul li a:hover{
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+     <div class="head-site">
+          <div class="container">
+            <div class="item-sign"><a href="login.htm">Đăng Nhập</a></div>
+            <div class="item-sign"><a href="#">Đăng Ký</a></div>
+            <div class="item-sign"><a href="#">Thông Báo<i class="fa fa-bell-o" aria-hidden="true"></i></a></div>
+            <div class="item-sign"><a href="#">Hỗ Trợ<i class="fa fa-question-circle" aria-hidden="true"></i></a></div>
+            <div class="item-sign"><a href="#">Kết Nối<i class="fa fa-facebook-official" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+          </div>
+          <div class="container2">
+            <div class="item1"><input id="input" placeholder="Tìm kiếm..." type="text"></div>
+            <div class="item2"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <div class="item3"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+            <div class="logo">PinkGuy Shop</div>
+          </div>
+
+
+     </div>
+
+     <div class="body-site">
+      <div class="banner"><img style="margin-left: 100px;margin-top: 10px;" src="img/BANNER.jpg" alt=""></div>
+      <div class="danhmucsanpham">
+              <div class="dmsp1"><a href="#">Tất cả</a></div>
+              <div class="dmsp1"><a href="#">Mới</a></div>
+              <div class="dmsp1"><a href="#">Bán chạy</a></div>
+              <div class="dmsp1"><a href="#">Phổ biến</a></div>
+              <div class="dmsp1"><a href="#">Giảm giá</a></div>
+        </div>
+        <div class="list-sp">
+              <div class="list-sp1">
+                    <img src="img/1.jpg" width="300" height="300" alt="">
+                    Giày Adadis <br>
+                    <p style="color: red;font-size: 150%;">500$</p>
+              </div>
+              <div class="list-sp2">
+                    <img src="img/2.jpg" width="300" height="300" alt="">
+                    Giày Adadis
+                    <p style="color: red;font-size: 150%;">50$</p>
+
+              </div>
+              <div class="list-sp3">
+                    <img src="img/3.jpg" width="300" height="300" alt="">
+                    Giày Yeezy 361
+                    <p style="color: red;font-size: 150%;">7749$</p>
+
+              </div>
+              <div class="list-sp4">
+                    <img src="img/4.jpg" width="300" height="300" alt="">
+                    Giày Yeezy 361
+                    <p style="color: red;font-size: 150%;">4950$</p>
+
+              </div>
+              <div class="list-sp5">
+                    <img src="img/5.jpg" width="300" height="300" alt="">
+                    Giày Yeezy 361
+                    <p style="color: red;font-size: 150%;">600$</p>
+
+              </div>
+              <div class="list-sp6">
+                    <img src="img/6.jpg" width="300" height="300" alt="">
+                    Giày Yeezy 361
+                    <p style="color: red;font-size: 150%;">1$</p>
+
+              </div>
+              <div class="list-sp7">
+                    <img src="img/7.png" width="300" height="300" alt="">
+                    Giày Yeezy 361
+                    <p style="color: red;font-size: 150%;">2$</p>
+
+              </div>
+              <div class="list-sp8">
+                    <img src="img/8.jpg" width="300" height="300" alt="">
+                    Giày Yeezy 361
+                    <p style="color: red;font-size: 150%;">70$</p>
+
+              </div>
+              <div class="list-sp9">
+                    <img src="img/9.jpg" width="300" height="300" alt="">
+                    Giày Yeezy 361
+                    <p style="color: red;font-size: 150%;">60$</p>
+
+              </div>
+        </div>
+
+     </div>
+
+     <div class="foot-site">
+      <div class="foot-site1">
+        <ul id="hihi">
+          <label for="hihi">CHĂM SÓC KHÁCH HÀNG</label>
+          <li><a href="">Trung tâm trợ giúp</a></li>
+          <li><a href="">Pinkguy Blog</a></li>
+          <li><a href="">Hướng dẫn mua hàng</a></li>
+          <li><a href="">Thanh toán</a></li>
+          <li><a href="">Vận chuyển</a></li>
+          <li><a href="">Trả hàng & Hoàn tiền</a></li>
+          <li><a href="">Chăm sóc khách hàng</a></li>
+          <li><a href="">Chính sách bảo hành</a></li>
+        </ul>
+      </div>
+      <div class="foot-site1">
+        <ul id="haha">
+          <label for="haha">VỀ CHÚNG TÔI</label>
+          <li><a href="#">Điều khoản</a></li>
+          <li><a href="#">Chính sách bảo mật</a></li>
+          <li><a href="#">Liên hệ với truyền thông</a></li>
+        </ul>
+      </div>
+      <div class="foot-site1">
+        <ul id="hehe">
+          <label for="hehe">THEO DÕI CHÚNG TÔI TRÊN</label>
+          <li><a href="#">Facebook  </a><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+          <li><a href="#">Instagram  </a><i class="fa fa-instagram" aria-hidden="true"></i></li>
+          <li><a href="#">Hornpub  </a><i class="fa fa-handshake-o" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+</body>
+</html>

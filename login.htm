@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Nhập</title>
+    <script src="https://use.fontawesome.com/0ae29c1e19.js"></script>
+    <style>
+        .menu-bar{
+
+            font-size: 300%;
+            height: 100px;
+            font-style: italic;
+        }
+        .contain{
+            display: grid;
+            grid-template-columns: auto 400px auto;            
+        }
+        .item2{
+            display: grid;
+            grid-template-rows: repeat(6, auto);
+            grid-gap: 10px;
+        }
+        #input{
+            background-color: transparent;
+            border: 0px solid;
+            height: 20px;
+            width: 300px;
+            color: #CCC;
+        }
+        #input:target {
+            background-color: transparent;
+            border: 0px solid;
+            height: 20px;
+            width: 300px;
+            color: #CCC;
+        }
+        .hr{
+            border: 1px solid;
+        }
+        .btn-c{height: 45px;width: 400px;background-color: whitesmoke;border: 1px gray;}
+        .btn-f{height: 45px;width: 400px;overflow: hidden;background-color: #2b4170;background: -moz-linear-gradient(top, #3b5998, #2b4170);background: -ms-linear-gradient(top, #3b5998, #2b4170);background: -webkit-linear-gradient(top, #3b5998, #2b4170);border: 1px solid #2b4170;text-shadow: 0 -1px -1px #1f2f52;color: white;}
+        .btn-g{height: 45px;width: 400px;background-color: white;}
+        .btn-a{height: 45px;width: 400px;background-color: white;}
+
+    </style>
+</head>
+<body>
+    <div class="menu-bar">PinkGuy Shop</div>
+    <div class="body-site">
+            <div class="contain">
+                <div class="item1"></div>
+                <div class="item2">
+                    <h1>Xin chào</h1>
+                    <p>Đăng nhập hoặc <a href="@">Đăng Ký tài khoản</a></p>
+                    <div class="formlogin"><input id="input" type="text" placeholder="Email hoặc tên đăng nhập"><hr class="hr">
+                    </div>
+                    <div class="button"><button class="btn-c">Tiếp tục</button></div>
+                    <div class="ngandong" style="text-align: center;">hoặc<hr class="hr"></div>
+                    <div class="facebook"><button class="btn-f">Tiếp tục với Facebook</button></div>
+                    <div class="google"><button class="btn-g">Tiếp tục với Google</button></div>
+                    <div class="apple"><button class="btn-a">Tiếp tục với Apple</button></div>
+                </div>
+                <div class="item3"></div>
+            </div>
+    </div>
+</body>
+</html>
